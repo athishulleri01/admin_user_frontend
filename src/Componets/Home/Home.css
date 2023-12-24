@@ -1,0 +1,71 @@
+.maindivuser {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.details {
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: 1px 2px 16px hsl(217, 72%, 18%), -8px -8px 16px #FFFF;
+
+}
+
+.errorfornotlogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: red;
+    font-weight: 300px;
+    font-size: 30px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.heading{
+    color: green;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.edituser
+{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db; 
+    color: #3498db; 
+    background-color: white; 
+    border-radius: 5px; 
+}
+.editdetails
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.boxfordata
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.d
+{
+    color: royalblue;
+    border: 2px solid #3498db; 
+    background-color: white; 
+}

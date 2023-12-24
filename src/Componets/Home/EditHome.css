@@ -1,0 +1,17 @@
+.maindivedituser {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.detailsedit {
+  background-color: aliceblue;
+  text-align: center;
+  width: 50%;
+  height: 90vh;
+  border-radius: 20px;
+  box-shadow: 1px 2px 16px hsl(217, 72%, 18%), -8px -8px 16px #FFFF;
+
+}
+

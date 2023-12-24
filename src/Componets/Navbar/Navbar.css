@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    /*  margin: 50px; */
+    background-color: black;
+    /* background: rgba(255, 0, 0, 2); */
+    box-shadow: 0 0 25px 0 black;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    padding: 20px;
+    /* background-color: beige; */
+
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.lists li {
+    align-items: center;
+    list-style: none;
+    font-weight: solid 2px black;
+}
+
+.linkli {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
