@@ -115,7 +115,7 @@ const AdminDashBord = () => {
                                         {users.map((user, index) => (
                                             <tr className=''>
                                                 <td>{index + 1}</td>
-                                                <td><img src="" alt="NO PROFILE PIC" /></td>
+                                                <td><img src={user.user_image} alt="NO PROFILE PIC" /></td>
                                                 <td>{user.first_name}</td>
                                                 <td>{user.last_name}</td>
                                                 <td>{user.email}</td>

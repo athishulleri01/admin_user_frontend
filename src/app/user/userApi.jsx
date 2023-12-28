@@ -10,7 +10,7 @@ export const userApi = {
         return response.data;
     },
     login: async(userData)=>{
-        const response = await axios.post(`${BASE_URL}/users/t  en/`,userData);
+        const response = await axios.post(`${BASE_URL}/users/token/`,userData);
         console.log(response.data)
         return response.data;
     }
